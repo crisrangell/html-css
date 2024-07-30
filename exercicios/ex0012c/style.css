@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* resolve problema de acentuacao*/
+
+body{
+    background-color: rgb(196, 234, 221);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+h1 {
+    color: antiquewhite;
+    background-color: black;
+}
+
+h2{
+
+    color: blue;
+    background-color: azure;
+}

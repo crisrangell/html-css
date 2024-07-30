@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{ background-color: #f0c5c2;
+    text-align: justify;
+}
+
+h1{ color:#7e322c;
+
+}
+
+h2{
+    color: #ba514a;
+
+}
+
+p{ text-indent: 20px;}
+
+h1#principal{
+    background-color: #ca8984;
+    color: white;
+    text-align: center;
+}
+
+.basico{
+   font-style: italic;
+}
+
+.intermediario{
+    text-decoration:line-through
+}
+
+.avancado{
+
+    text-decoration:overline;
+   
+}
