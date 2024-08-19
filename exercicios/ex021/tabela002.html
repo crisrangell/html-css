@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        table{
+            width: 400px;
+            border-collapse:collapse;
+            border: 1px solid black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.8em;
+            
+
+        }
+        caption{
+            border: 1px solid black;
+            padding: 20px;
+            font-weight: bold;
+
+        }
+        tbody > tr:nth-child(2n){
+            background-color: lightgrey;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+            border-collapse:collapse;
+           
+        }
+
+        thead, tfoot {
+            background-color: rgb(128, 128, 128);
+            color: white;
+            font-weight: bold;
+            text-align: center;
+
+        }
+        .num{
+            text-align: right;
+        }
+        
+      
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas Grandes</h1>
+
+<!--TABELA:
+
+CAPTION- TITULO
+THEAD- CABEÇA
+TBODY- CORPO
+TFOOT- PÉ 
+
+TH- USADO PARA TITULOS
+TD- USADO PARA DADOS
+
+SCOPE:COL 
+      ROW
+
+COLSPAN- SERVE PARA MESCLAR COLUNAS
+ROWSPAN- SERVE PARA MESCLAR AS LINHAS
+-->
+    <table>
+        <caption>Os 5 Estados com mais população </caption>
+        <thead>
+            <tr>
+                <th scope="col">Posição</th>
+                <th scope="col">Unidade Federativa</th>
+                <th scope="col">População</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>São Paulo</td>
+                <td class="num">44 411 238</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Minas Gerais</td>
+                <td class="num">20 538 718</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Rio de Janeiro</td>
+                <td class="num">16 054 524</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Bahia</td>
+                <td class="num">14 141 626</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Paraná</td>
+                <td class="num">11 444 380</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+
+                <th colspan="2"
+                scope="col">Total</th>
+                <td class="num"><strong>106.590.486</strong></td>
+            </tr>
+
+        </tfoot>
+    </table>
+    
+</body>
+</html>
