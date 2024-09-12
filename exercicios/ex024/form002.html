@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 2</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get" autocomplete="off" >
+
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" required maxlength="30" minlength="10" size="30" placeholder="Nome completo" autocomplete="name"  >
+        </p>
+
+        <p>
+            <label for="imateria">Matéria:</label>
+            <input type="text" name="materia" id="imateria"
+            maxlength="15" required >
+        </p>
+
+        <p>
+            <label for="inota">Nota:</label>
+            <input type="number" name="nota" id="inota" size="1"
+            >
+        </p>
+
+        <p>
+            <label for="idata">Data:</label>
+            <input type="date" name="idata" id="idata">
+        </p>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+
+
+    </form>
+    
+</body>
+</html>
