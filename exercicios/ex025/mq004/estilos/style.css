@@ -4,23 +4,32 @@
     padding: 0px;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 html,body{
     height: 100vh;
+    
+}
+ body{
     background-color: black;
     background-image: url(../imagens/back-phone.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    text-align: center;
     background-size: cover;
     
-}
+ }
+
 section{
 
     background-color: rgba(240, 248, 255, 0.429);
-    width: 600px;
+    width: 400px;
     margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+
     
 }
 h1{
