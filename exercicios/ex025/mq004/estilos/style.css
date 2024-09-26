@@ -5,6 +5,7 @@
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+    text-align: center;
 }
 
 html,body{
@@ -17,6 +18,7 @@ html,body{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+   
     
  }
 
@@ -28,7 +30,7 @@ section{
     margin-top: 20px;
     border-radius: 10px;
     padding: 10px;
-    text-align: center;
+    
 
     
 }
@@ -36,15 +38,7 @@ h1{
     text-align: center;
     padding: 10px;
 }
-img#pc{
-    display: none;
-}
-img#print{
-    display: none;
-}
-img#tablet{
-    display: none;
-}
-img#tv{
-    display: none;
-}
+img#pc{ display: none;}
+img#print{display: none;}
+img#tablet{display: none;}
+img#tv{display: none;}
