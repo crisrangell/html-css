@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        div#container{
+            background-color: black;
+            
+            display: flex;
+
+        }
+
+        div.item{
+            background-color: aqua;
+            text-align: center;
+            border: 1px solid black;
+            flex: auto;
+            
+
+        }
+
+        div#base{
+            background-color: brown;
+            display: block;
+
+        }
+
+
+        div.estrutura{
+            background-color: blueviolet;
+            display: inline-block;
+            width: 92px;
+            text-align: center;
+            border: 1px solid black;
+
+
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        
+        
+    </div> <br>
+
+    <!--Aqui vou usar o display block p ver a diferenca-->
+    <div id=" base">
+
+        <div class="estrutura">A</div>
+        <div class="estrutura">B</div>
+        <div class="estrutura">C</div>
+        <div class="estrutura">D</div>
+        <div class="estrutura">E</div>
+        
+        
+    </div>
+    <!--Quando usamos Flexbox ele é flexível a página,se movendo de acordo com o movimento da tela.
+    
+    Já o display block fica estático-->
+    
+</body>
+</html>
