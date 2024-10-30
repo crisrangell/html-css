@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        div#container{
+            background-color: black;
+            display: flex;
+            flex-flow: row nowrap;
+
+        }
+
+        div.item{
+            background-color: aqua;
+            text-align: center;
+            border: 1px solid black;
+            
+            
+
+        }
+
+        div#container2{
+            background-color: black;
+            display: flex;
+            flex-flow: row nowrap;
+
+        }
+
+        div.item1{
+
+            background-color: aqua;
+            text-align: center;
+            border: 1px solid black;
+            flex-basis: 200px;
+
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div id="container"><!-- Aqui é quando nao usamos o flex basis- deixando cada largura de item com um tamanho diferente conforme o conteudo.-->
+
+        <div class="item">A</div>
+        <div class="item">aqui o texto</div>
+        <div class="item">C</div>
+        <div class="item">aqui um livro enormeeeeeeeee</div>
+        <div class="item">aqui nem se dimensao de itens conformo o tamanho do texto acrescentado</div>
+        
+        
+    </div> <br><br>
+
+    <div id="container2"><!-- Aqui o tamanho e padronizado, msm com conteudos compridos ou nao!
+        o que diferencia é que se o container for muuito pequeno os itens podem quebrar, dando erro-->
+
+        <div class="item1">A</div>
+        <div class="item1">aqui o texto</div>
+        <div class="item1">C</div>
+        <div class="item1">aqui um livro enormeeeeeeeee</div>
+        <div class="item1">aqui nem se dimensao de itens conformo o tamanho do texto acrescentado</div>
+        
+        
+    </div>
+
+   
+    
+</body>
+</html>
