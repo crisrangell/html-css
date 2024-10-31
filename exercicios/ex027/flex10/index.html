@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        div#container{
+            background-color: black;
+            display: flex;
+            flex-flow: row nowrap;
+
+        }
+
+        div.item{
+            background-color: aqua;
+            text-align: center;
+            border: 1px solid black;
+            flex-basis: 200px;
+            flex-shrink: 1;
+            flex-grow: 0;
+            
+        }
+        div#container1{
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        div.item1{
+            background-color: blue;
+            text-align: center;
+            border: 1px solid black;
+            flex-basis: 200px;
+            flex-shrink: 1;
+            flex-grow: 1;
+
+        }
+
+      
+    </style>
+</head>
+<body><!--
+    Flex-shrink:1 (item reduzir de acordo com a pagina)/            Flex-shrink:0 (item nao reduz com a pagina) 
+    
+    flex-grow:0 (item nao aumenta de acordo com a pagina)
+    flex-grow:1 ( item aumenta de acordo com a pagina)
+    -->
+
+    <div id="container"><!--Aqui usamos o nowrap - no quebra -->
+
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        
+        
+    </div>  <br>
+
+    <div id="container1"><!--Aqui usamos o wrap (quebra os itens)-->
+
+        <div class="item1">A</div>
+        <div class="item1">B</div>
+        <div class="item1">C</div>
+        <div class="item1">D</div>
+        <div class="item1">E</div>
+        
+        
+    </div> 
+    
+</body>
+</html>
