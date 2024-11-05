@@ -3,7 +3,7 @@
 header, header nav{
     flex-flow:  column nowrap;
 }
-header h1{
+header h2{
     flex:50px;
 }
 
